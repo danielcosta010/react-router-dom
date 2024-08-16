@@ -2,6 +2,7 @@ import styles from './Item.module.scss';
 import cardapio from '../itens.json';
 import classNames from 'classnames';
 
+
 type Props = typeof cardapio[0];
 
 export default function Item(props: Props) {
